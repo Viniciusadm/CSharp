@@ -11,8 +11,8 @@ namespace banco {
             this.NomeDoTitular = nomeDoTitular;
         }
 
-        public Conta(int númeroDaConta, string nomeDoTitular, double saldo) : this(númeroDaConta, nomeDoTitular){
-            this.Saldo = saldo;
+        public Conta(int númeroDaConta, string nomeDoTitular, double saldoInicial) : this(númeroDaConta, nomeDoTitular){
+            this.DepositarDinheiro(saldoInicial);
         }
 
         public void DepositarDinheiro(double valor) {
