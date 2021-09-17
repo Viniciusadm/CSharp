@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace matrix {
+namespace matriz {
     class Program {
         static void Main(string[] args) {
             Console.Write("Número de linhas do array: ");
@@ -44,3 +44,4 @@ namespace matrix {
         }
     }
 }
+
