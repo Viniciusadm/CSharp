@@ -6,4 +6,4 @@ Meu progresso
 * Básico da orientação a objetos com C# (classes, atributos, métodos, membros estáticos e construtor) - projetos: retângulo, funcionário, aluno e dolar
 * Primeiro pilar da orientação a objetos com C# (sobrecarga e encapsulamento) - projetos: banco
 * Básico de estrutura de dados (comportamento de mémoria, arrays e listas) - projetos: aluguel, salário e matrix
-* Datas, enums e composições - projetos: ContratoDeTrabalho
+* Datas, enums e composições - projetos: ContratoDeTrabalho e RedeSocial
