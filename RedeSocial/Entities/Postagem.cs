@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace RedeSocial.Entities {
     public class Postagem {
@@ -29,11 +30,15 @@ namespace RedeSocial.Entities {
         }
 
         public override string ToString() {
-            string comentários = "";
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(this.Título);
+            sb.AppendLine($"{this.Curtidas} curtidas - {this.Momento}");
+            sb.AppendLine(this.Conteúdo);
+            sb.AppendLine("Comentários: ");
             foreach(Comentário comentário in this.Comentários) {
-                comentários += comentário.Texto + "\n";
+                sb.AppendLine(comentário.Texto);
             }
-            return $"{this.Título}\n{this.Curtidas} curtidas - {this.Momento}\n{this.Conteúdo}\nComentários:\n{comentários}";
+            return sb.ToString();
         }
     }
 }
