@@ -5,11 +5,12 @@ namespace AluguelDeCarros.Services {
     public class ServiçoDeAluguel {
         public double PreçoPorHora { get; private set; }
         public double PreçoPorDia { get; private set; }
-        private TaxaDeImpostoBrasil _taxaDeImpostoBrasil = new TaxaDeImpostoBrasil();
+        private IServiçoDeTaxa _taxaDeImposto;
 
-        public ServiçoDeAluguel(double preçoPorHora, double preçoPorDia) {
+        public ServiçoDeAluguel(double preçoPorHora, double preçoPorDia, IServiçoDeTaxa taxaDeImposto) {
             this.PreçoPorHora = preçoPorHora;
             this.PreçoPorDia = preçoPorDia;
+            this._taxaDeImposto = taxaDeImposto;
         }
 
         public void GerarFatura(Aluguel aluguel) {
@@ -22,7 +23,7 @@ namespace AluguelDeCarros.Services {
                 pagamentoBase = this.PreçoPorDia * Math.Ceiling(duração.TotalDays);
             }
 
-            double taxa = _taxaDeImpostoBrasil.Taxa(pagamentoBase);
+            double taxa = _taxaDeImposto.Taxa(pagamentoBase);
             
             aluguel.Fatura = new Fatura(pagamentoBase, taxa);
         }

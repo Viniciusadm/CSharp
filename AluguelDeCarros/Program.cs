@@ -25,7 +25,7 @@ namespace AluguelDeCarros {
             Console.Write("Digite o preço por dia: ");
             double preçoPorDia = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            ServiçoDeAluguel serviçoDeAluguel = new ServiçoDeAluguel(preçoPorHora, preçoPorDia);
+            ServiçoDeAluguel serviçoDeAluguel = new ServiçoDeAluguel(preçoPorHora, preçoPorDia, new TaxaDeImpostoBrasil());
 
             serviçoDeAluguel.GerarFatura(aluguel);
 
