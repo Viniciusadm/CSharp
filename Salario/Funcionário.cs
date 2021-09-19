@@ -1,4 +1,4 @@
-namespace salario {
+namespace Salario {
     public class Funcionário {
         public int ID { get; private set; }
         public string Nome { get; private set; }

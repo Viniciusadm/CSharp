@@ -1,6 +1,6 @@
 using System;
 
-namespace retangulo {
+namespace Retangulo {
     public class Retangulo {
         private double Largura;
         private double Altura;

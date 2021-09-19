@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace salario {
+namespace Salario {
     class Program {
         static void Main(string[] args) {
             List<Funcionário> funcionários = new List<Funcionário>();

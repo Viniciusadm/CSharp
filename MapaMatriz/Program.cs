@@ -1,6 +1,6 @@
 using System;
 
-namespace matriz {
+namespace MapaMatriz {
     class Program {
         static void Main(string[] args) {
             Console.Write("Número de linhas da matriz: ");

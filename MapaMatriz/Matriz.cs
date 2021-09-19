@@ -1,6 +1,6 @@
 using System;
 
-namespace matriz {
+namespace MapaMatriz {
     public class Matriz {
         public int LinhasDaMatriz { get; private set; }
         public int ColunasDaMatriz { get; private set; }

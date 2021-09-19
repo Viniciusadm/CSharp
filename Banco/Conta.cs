@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace banco {
+namespace Banco {
     public class Conta {
         public double Saldo { get; private set; }
         public int NúmeroDaConta { get; private set; }

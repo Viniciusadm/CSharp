@@ -1,4 +1,4 @@
-namespace aluguel {
+namespace Aluguel {
     public class Estudante {
         public string Nome { get; private set; }
         public string Email { get; private set; }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace aluguel {
+namespace Aluguel {
     class Program {
         static void Main(string[] args) {
             Estudante[] quartos = new Estudante[10];

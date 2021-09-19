@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace banco {
+namespace Banco {
     class Program {
         static void Main(string[] args) {
             Random rnd = new Random();

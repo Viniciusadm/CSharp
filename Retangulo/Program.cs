@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace retangulo {
+namespace Retangulo {
     class Program {
         static void Main(string[] args) {
             Console.Write("Altura: ");
