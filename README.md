@@ -7,3 +7,4 @@ Meu progresso
 * Primeiro pilar da orientação a objetos com C# (sobrecarga e encapsulamento) - projetos: banco
 * Básico de estrutura de dados (comportamento de mémoria, arrays e listas) - projetos: aluguel, salário e matrix
 * Datas, enums e composições - projetos: ContratoDeTrabalho, RedeSocial e Loja
+* Herança e Polimorfismo - projetos: Pagamento
