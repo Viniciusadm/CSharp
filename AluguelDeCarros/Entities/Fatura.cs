@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.Text;
 
 namespace AluguelDeCarros.Entities {
     public class Fatura {
@@ -15,7 +16,11 @@ namespace AluguelDeCarros.Entities {
         }
 
         override public string ToString() {
-            return $"Pagamento básico: {this.PagamentoBase.ToString("F2", CultureInfo.InvariantCulture)}\n{this.Taxa.ToString("F2", CultureInfo.InvariantCulture)}\nPagamento total: {this.PagamentoTotal().ToString("F2", CultureInfo.InvariantCulture)}";
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine($"Pagamento básico: {this.PagamentoBase.ToString("F2", CultureInfo.InvariantCulture)}");
+            sb.AppendLine($"{this.Taxa.ToString("F2", CultureInfo.InvariantCulture)}");
+            sb.AppendLine($"Pagamento total: {this.PagamentoTotal().ToString("F2", CultureInfo.InvariantCulture)}");
+            return sb.ToString();
         }
     }
 }
