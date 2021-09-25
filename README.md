@@ -9,7 +9,7 @@ Meu progresso
 * Datas, enums e composições - projetos: ContratoDeTrabalho, RedeSocial e Loja
 * Herança, polimorfismo e classes abstratas - projetos: Pagamento, Produtos, Formas, Imposto
 * Interface - projetos: AluguelDeCarros, Parecelamento
-* Sets - projetos: ConjuntoLog, Curso
+* Sets - projetos: ConjuntoLog, Curso, Votos
 
 Projetos feitos fora do curso:  
 * [My Series](https://github.com/Viniciusadm/MySeries)
