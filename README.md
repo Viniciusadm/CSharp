@@ -10,7 +10,7 @@ Meu progresso
 * Herança, polimorfismo e classes abstratas - projetos: Pagamento, Produtos, Formas, Imposto
 * Interface - projetos: AluguelDeCarros, Parecelamento
 * Sets - projetos: ConjuntoLog, Curso, Votos
-* Linq - projetos: ProdutosMedia
+* Linq - projetos: ProdutosMedia, Salarios
 
 Projetos feitos fora do curso:  
 * [My Series](https://github.com/Viniciusadm/MySeries)
